@@ -40,17 +40,17 @@ Come talk to us and find out how we can save you money in AWS, be it optimisatio
 [[params.one.icon]]
 icon = "regular fa-cow"
 style = "1"
-label = "Lorem"
+label = "Cow"
 
 [[params.one.icon]]
 icon = "regular fa-skull-cow"
 style = "1"
-label = "Ipsum"
+label = "Cow Horns"
 
 [[params.one.icon]]
 icon = "regular fa-cowbell"
 style = "1"
-label = "Dolor"
+label = "Cow Bell"
 
 [params.two]
 enable = true
@@ -83,7 +83,7 @@ title = "We work for you and not AWS"
 body = "We partner with you and not AWS to get you savings from the off."
 
 [[params.three.feature]]
-icon = "solid fa-people"
+icon = "solid fa-user-cowboy"
 title = "30+ years experience"
 body = "We have deep AWS knowledge gained by working with AWS services and working for AWS as solutions architects."
 
@@ -105,22 +105,18 @@ body = "Cost optimisation reports £1000 per account, thats it."
 [[params.three.feature]]
 icon = "solid fa-megaphone"
 title = "Consultancy"
-body = "Consultancy £1000 per day."
+body = "AWS Architecture and Linux Consultancy £1000 per day."
 
 [params.cta]
-enable = false
-title = "Arcue ut vel commodo"
-body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
+enable = true
+title = "Read our Blog"
+body = "Find money saving tips in our blog and start saving today."
 
 [[params.cta.link]]
-href = "#"
-text = "Activate"
+href = "posts/"
+text = "Read the blog"
 special = true
 
-[[params.cta.link]]
-href = "#"
-text = "Learn More"
-special = false
 
 [params.contact]
 enable = true
@@ -129,7 +125,7 @@ body = "Leave us a message."
 phone = "0800 046 5536"
 address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
 email = "billshock@squarecows.com"
-subject = "New Submission!"
+subject = "Website Message:"
 formspree_form_id = "mlekglkp"
 
 [params.social]
@@ -144,6 +140,3 @@ youtube = "UCdaV9K31X9UkMOH4HgiS1_Q"
 weight = 0
 languageName = "English"
 
-[languages.de]
-weight = 10
-languageName = "Deutsch"
