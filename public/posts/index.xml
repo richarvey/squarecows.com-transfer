@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on SquareCows</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on SquareCows</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrating disks from GP2 to GP3</title>
+      <link>/posts/gp3-disks/</link>
+      <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/gp3-disks/</guid>
+      <description>Migrating from GP2 disks to GP3 to Save Money on Your AWS Bill GP3 disks were announced back in December 2020 as a new and improved standard disk which promised the potential of 20% savings over the GP2 disks. Despite this, I rarely see a customer who&amp;rsquo;s migrated their disks from GP2 to GP3, so here is a blog post that should get you started and on your way.
+Why GP3?</description>
+    </item>
+    
+  </channel>
+</rss>
