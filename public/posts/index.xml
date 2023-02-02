@@ -6,7 +6,16 @@
     <description>Recent content in Posts on SquareCows</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enable Cost and Usage Reports (CUR)</title>
+      <link>/posts/enable-curs/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/enable-curs/</guid>
+      <description>Why choose CUR? In order to analyse your AWS billing in detail you need to switch on Cost and Usage Reporting (CUR). This allows you to see a very fine grained report on your billing data, from on-demand costs to how much of your RI or savings plan is being used. When working with SquareCows we&amp;rsquo;ll ask you to enable this and run the data for at least 30 days in order to cacth month begining and end, which should give us a good idea of your standard usage of AWS and make more informed cost savings calculations.</description>
+    </item>
+    
     <item>
       <title>Migrating disks from GP2 to GP3</title>
       <link>/posts/gp3-disks/</link>
