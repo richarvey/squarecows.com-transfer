@@ -34,7 +34,7 @@ title = "Posts"
 enable = true
 title = 'Lowering AWS Bills is what we do!'
 body = '''
-Come talk to us and find out how we can save you money in AWS, be it optimisation or contract negotiation.
+Come talk to us and find out how we can save you money in AWS, be it optimisation or contract negotiation. SquareCows can bring FinOps to your organisation and help you control cloud spend.
 '''
 
 [[params.one.icon]]
@@ -74,7 +74,7 @@ body = 'We don’t like writing them and you don’t like reading them. Instead 
 enable = true
 title = 'Why work with SquareCows'
 body = '''
-You'll find working with SquareCows refreashing with a personal touch, allowing us to understand your needs and deliver results.
+You'll find working with SquareCows refreashing with a personal touch, allowing us to understand your needs and deliver results by taking a FinOps approach to your billing.
 '''
 
 [[params.three.feature]]

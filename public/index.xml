@@ -6,7 +6,17 @@
     <description>Recent content on SquareCows</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Case Study: Freewebstore.com</title>
+      <link>/posts/case-study-freewebstore/</link>
+      <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/case-study-freewebstore/</guid>
+      <description>Case Study: Freewebstore About Freewebstore Freewebstore is the world&amp;rsquo;s largest free eCommerce platform, allowing 7000+ customers access to selling their goods online. Formed in 2008, the business has grown from the data centre into the cloud and uses AWS exclusively. The company operates from its HQ in Burnley, Lancashire, UK.
+Challenges: Cost Optimization with no performance degradation Freewebstore is a small but advanced user of AWS. They consume many AWS products and need to drive down monthly costs without affecting performance.</description>
+    </item>
+    
     <item>
       <title>Enable Cost and Usage Reports (CUR)</title>
       <link>/posts/enable-curs/</link>
