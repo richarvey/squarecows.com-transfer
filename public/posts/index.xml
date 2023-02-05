@@ -6,7 +6,28 @@
     <description>Recent content in Posts on SquareCows</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tagging Resources</title>
+      <link>/posts/tagging/</link>
+      <pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/tagging/</guid>
+      <description>Best Practices in Tagging on AWS Tagging is a crucial aspect of resource management on AWS. It helps you organize, identify and categorize your AWS resources in a way that makes sense for your organization. This in turn can help with cost allocation, security, and compliance management.
+Here are some of the best practices to follow when using tags on AWS:
+Establish a tagging strategy: Before you start tagging your resources, it&amp;rsquo;s important to have a clear and well-defined tagging strategy.</description>
+    </item>
+    
+    <item>
+      <title>Cloud FinOps</title>
+      <link>/posts/finops/</link>
+      <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/finops/</guid>
+      <description>Cloud FinOps: Managing Cloud Costs in the Era of Digital Transformation The widespread adoption of cloud computing has brought about an era of digital transformation, enabling organizations to quickly launch new applications and services, scale their infrastructure, and drive innovation. However, the cost of cloud computing can quickly spiral out of control if not properly managed. This is where Cloud FinOps comes in.
+What is Cloud FinOps? Cloud FinOps is a cost-optimization approach for cloud computing, which focuses on the financial management of cloud services.</description>
+    </item>
+    
     <item>
       <title>Case Study: Freewebstore.com</title>
       <link>/posts/case-study-freewebstore/</link>
