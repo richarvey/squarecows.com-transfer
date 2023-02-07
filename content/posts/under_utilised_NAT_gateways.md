@@ -1,6 +1,6 @@
 +++
 author = "Ric Harvey"
-title = "Under Utilised NAT Gateways"
+title = "Underutilised NAT Gateways"
 date = "2023-02-07"
 description = "Save money by tidying up under utilised NAT gateways"
 tags = [

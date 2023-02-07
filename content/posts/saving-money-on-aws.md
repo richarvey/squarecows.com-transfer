@@ -1,7 +1,7 @@
 +++
 author = "Ric Harvey"
 title = "Saving Money in AWS"
-date = "2023-02-06"
+date = "2023-02-05"
 description = "Best practices in saving money on AWS"
 tags = [
     "aws","FinOps",
