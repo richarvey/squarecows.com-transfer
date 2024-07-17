@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 
 <html lang="en">
-	<head>
+	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	  <title>Migrating disks from GP2 to GP3</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +10,7 @@
 
     <meta name="description" content="Cloud Architecture and Economics for AWS">
     
-    <meta name="generator" content="Hugo 0.101.0" />
+    <meta name="generator" content="Hugo 0.129.0">
 
     
 <link rel="stylesheet" href="/css/main.min.4638a661d8670bfcd528999681afce253c2b8d8c8d200a6f606a7fcbffd2d0a0fa9af6a67b38d648283fc3a16998042a53118a852aa8cde131f7adf935c4f2fe.css" integrity="sha512-RjimYdhnC/zVKJmWga/OJTwrjYyNIApvYGp/y//S0KD6mvamezjWSCg/w6FpmAQqUxGKhSqozeEx9635NcTy/g==">
@@ -22,17 +22,21 @@
 
 
     
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Migrating disks from GP2 to GP3"/>
-<meta name="twitter:description" content="Saving money on GP3 disks"/>
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Migrating disks from GP2 to GP3">
+  <meta name="twitter:description" content="Saving money on GP3 disks">
 
-    <meta property="og:title" content="Migrating disks from GP2 to GP3" />
-<meta property="og:description" content="Saving money on GP3 disks" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/gp3-disks/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-10-05T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-10-05T00:00:00+00:00" />
-
+    <meta property="og:url" content="//localhost:1313/posts/gp3-disks/">
+  <meta property="og:site_name" content="SquareCows">
+  <meta property="og:title" content="Migrating disks from GP2 to GP3">
+  <meta property="og:description" content="Saving money on GP3 disks">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-10-05T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-10-05T00:00:00+00:00">
+    <meta property="article:tag" content="Aws">
 
     
 	</head>
@@ -43,7 +47,7 @@
 
 				
           <header id="header">
-		  <h1><a href="/"><img height="50" src="https://squarecows.com/img/logo.png" alt="logo"/></a></h1>
+		  <h1><a href="//localhost:1313/"><img height="50" src="https://squarecows.com/img/logo.png" alt="logo"/></a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
@@ -74,7 +78,7 @@
 <h3 id="why-gp3">Why GP3?</h3>
 <p>Well, to start with, you can save up to 20% on your bill, so this is an easy-win cost optimization to get done.
 Secondly, the performance of GP3 disks is much better than GP2, with 3000 IOPs as the baseline vs. 100 IOPs on GP2. You can also scale the disks to a maximum of 16,000 IOPs if you need more. The throughput is also much better at 125MiB/s, which at top performance is four times better than GP2. Let&rsquo;s compare the disk&rsquo;s side by side in the table below:</p>
-<p><img src="/img/table.webp" alt="Comparison Table"></p>
+<p><img alt="Comparison Table" src="/img/table.webp"></p>
 <h3 id="migrating-from-gp2-togp3">Migrating from GP2 to GP3</h3>
 <p>There&rsquo;s good news in this you don&rsquo;t need to restart your machines as migrations can happen in place, but the catch is you need to be running a current lastest generation instance or one of the following: C1, C3, CC2, CR1, G2, I2, M1, M3, and R3.</p>
 <h4 id="to-modify-an-amazon-ebs-volume-using-the-aws-management-console">To modify an Amazon EBS volume using the AWS Management Console</h4>
@@ -92,7 +96,7 @@ It&rsquo;s worth noting that if you increase the volume size, you&rsquo;ll need 
 <p>We&rsquo;ll use the modify-volume command to migrate from GP2 to GP3. The following is an example command to migrate an 8-GiB gp2 volume to gp3 with baseline performance.
 aws ec2 modify-volume - volume-type gp3 -volume-id vol-11111111111111111
 Following is an example output:</p>
-<p><img src="/img/output.webp" alt="Sample Output"></p>
+<p><img alt="Sample Output" src="/img/output.webp"></p>
 <p>If you want to give your volume more IOPs or throughput, simply add the - iops or - throughput flags to the command line like so:
 aws ec2 modify-volume - volume-type gp3 - iops 4000 - throughput 250 - volume-id vol-11111111111111111</p>
 <h3 id="time-towait">Time to wait</h3>
@@ -129,7 +133,7 @@ aws ec2 modify-volume - volume-type gp3 - iops 4000 - throughput 250
 
 						</ul>
 						<ul class="copyright">
-              <li>&copy; 2023 Ric Harvey</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+              <li>&copy; 2024 Ric Harvey</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 						<a href="https://aws.amazon.com/what-is-cloud-computing" class="icon"><img src="https://d0.awsstatic.com/logos/powered-by-aws-white.png" alt="Powered by AWS Cloud Computing"></a>
 					</footer>
@@ -146,7 +150,7 @@ aws ec2 modify-volume - volume-type gp3 - iops 4000 - throughput 250
 
 
 
-<script src="/js/bundle.min.1d097540552de69d472123bb938979b0b13b750fbfd60ee1edb83700b6ac0bc43557a61212ab8a30fec53cd323cfc2af28e53780733089f538a378b0c68cac92.js" integrity="sha512-HQl1QFUt5p1HISO7k4l5sLE7dQ&#43;/1g7h7bg3ALasC8Q1V6YSEquKMP7FPNMjz8KvKOU3gHMwifU4o3iwxoyskg=="></script>
+<script src="/js/bundle.min.2375c1ad8298cd5d3c22743c7a2dad200e08af90be2c7b755a255919124790c619121dcc60b4103be55143497e9a65edaa3a30d1ecbaaed8e6644ffc08adc520.js" integrity="sha512-I3XBrYKYzV08InQ8ei2tIA4Ir5C&#43;LHt1WiVZGRJHkMYZEh3MYLQQO&#43;VRQ0l&#43;mmXtqjow0ey6rtjmZE/8CK3FIA=="></script>
 
 
 	</body>
